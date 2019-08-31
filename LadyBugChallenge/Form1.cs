@@ -32,7 +32,7 @@ namespace LadyBugChallenge
             PB.Size = new Size(35, 35);
             PB.SizeMode = PictureBoxSizeMode.StretchImage;
             PB.Location = RandomLoc();
-            PB.BackgroundImage = Image.FromFile("c:\\Users\\Sahar PC\\Desktop\\index2.png");
+            PB.BackgroundImage = Image.FromFile("c:\\Users\\");
 
             Action b = () => { this.Controls.Add(PB); };   //delegate for the adding task
 
